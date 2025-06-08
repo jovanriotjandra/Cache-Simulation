@@ -1,3 +1,10 @@
+# Zusammenfassung
+Ein C-basiertes Programm, das das Verhalten des CPU-Caches simuliert und analysiert. Es ermöglicht Benutzern, den Unterschied zwischen direkt zugeordneten und 4-Wege-assoziativen Caches zu analysieren. Benutzer können verschiedene Cache-Konfigurationen testen (die Anzahl der simulierten Zyklen, die Größe einer Cachezeile in Byte, die Anzahl der Cachezeilen, die Latenzzeit eines Caches in Zyklen und Latenzzeit des Hauptspeichers in Zyklen) um zu beobachten, wie sich diese auf die Effizienz des Speicherzugriffs auswirken.
+
+Das Programm gibt Leistungsmetriken aus, wie z. B. Hits, Misses und eine grobe Anzahl der Gates, die für die Implementierung in Hardware erforderlich sind. Die optionale Tracefile-Ausgabe ermöglicht einen detaillierteren Einblick. Diese ermöglichen einen direkten Leistungsvergleich zwischen die beiden Cache-Strategien.
+
+Diese Simulation wurde im Rahmen eines Universitätskurses zur Systemprogrammierung entwickelt, um praktische Einblicke in den Unterschied zwischen direkt zugeordneten und 4-Wege-assoziativen Caches sowie in die Beziehung zwischen Cache-Architektur und Laufzeitleistung zu vermitteln.
+
 ## Mitgliedsbeitrag
 - **Lie Aditya Bryan**: cache_module.cpp, four_way_lru_cache.cpp, matrix_multiplication.csv
 - **Jovan Rio Tjandra**: simulation.cpp, direct_mapped_cache.cpp, Projektbericht
